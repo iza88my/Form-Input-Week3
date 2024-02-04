@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form&Input</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="style.css"/>
+
+</head>
+
+
+<!-- HEADER -->
+
+<body>
+    <header>
+        <div class="container">
+            <div>
+                <img src="pic/logo.svg" alt="companyLogo">
+            </div>
+        </div>
+    </header>
+
+
+
+<!-- MAIN -->
+
+    <main>
+        <div class="left">
+            <div>REGISTER YOUR BOOK</div>
+        </div>
+            
+        <form class="info">
+
+            <p>Book Details &nbsp;________________________________________________________________
+            </p>
+
+
+            <div id="title">
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title" value="Your book title here. E.g: Harry Potter and The Fantastic Bootcamp">
+            </div>
+
+            <div id="genre">
+                <label for="genre">Genre</label>
+                <input type="text" id="genre" name="genre" value="Your book genre here. E.g: Fantasy">
+            </div>
+
+            <div id="author">
+                <label for="author">Author</label>
+                <input type="text" id="author" name="author" value="Your book author here. E.g: J.K Rowling">
+            </div>
+
+            <div id="publisher">
+                <label for="publisher">Publisher</label>
+                <input type="text"  id="publisher" name="publisher" value="Publisher of the book. E.g: Pustaka Melang">
+            </div>
+
+            <div id="yearPublish">
+                <label for="yearPublish">Year Publish</label>
+                <input type="number"  id="yearPublish" name="yearPublish" value="1994">
+            </div>   
+            
+            
+            <div class="avail">Availability
+
+                <div class="radio">
+                    <div>
+                        <input type="radio" id="online" name="availability" value="Online">
+                        <label for="online">Online</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="instore" name="availability" value="In store">
+                        <label for="instore">Instore</label>
+                    </div>
+        
+                    <div>
+                        <input type="radio" id="online-instore" name="availability" value="Online &In store">
+                        <label for="online-instore">Online & In store</label>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div id="pages">
+                <label for="pages">Pages</label>
+                <input type="number"  id="pages" name="pages" value="514">
+            </div>
+
+            <div id="language">
+                <label for="language">Year Publish</label>
+                <input type="text"  id="language" name="language" value="Language used in the book. E.g: English">
+            </div>   
+
+
+            <p>Registree Details &nbsp;___________________________________________________________</p>
+
+            <div id="name">
+                <label for="name">Name</label>
+                <input type="text"  id="name" name="name" value="Your name. E.g: Lannah Yeon">
+            </div>
+
+            <div id="email">
+                <label for="email">Email</label>
+                <input type="text"  id="email" name="email" value="Your email. E.g: l.yeon@email.com">
+            </div> 
+
+
+
+            <div class="agreement">
+                <div>
+                    <input type="checkbox" id="agreement" name="agreement" value="">
+                    <label for="agreement">I hereby agree to follow all rules and confirmed that all details are accurate</label>
+                </div>  
+            </div>    
+
+
+
+            <button type="submit">SAVE YOUR BOOK</button>
+          
+        </form>
+
+        
+    </main>
+
+
+
+<!-- FOOTER -->
+
+
+    <footer>
+        <div class="container">
+            <div class="top">
+                <div class="logo">
+                    <img src="pic/logo.svg" alt="logo">
+                </div>
+                <div class="social">
+                    <img src="pic/insta.svg" alt="insta">
+                    <img src="pic/fb.svg" alt="fb">
+                    <img src="pic/twitter.svg" alt="twitter">
+                </div>
+            </div>
+            <div class="bottom">
+                <div>
+                    <span>Term and condition</span>
+                    <span>Privacy policy</span>
+                </div>
+                <div>
+                    <span>+44 1332 412251</span>
+                    <span>support@bbookshelf.com</span>
+                </div>
+            </div>
+        </div>
+    
+       </footer>
+</body>
+</html>
